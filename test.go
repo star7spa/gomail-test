@@ -60,7 +60,7 @@ func main() {
 
 	// New email
 	email := mail.NewMSG()
-	email.SetFrom("noreply <noreply@whatyouwant>").
+	email.SetFrom("noreply <noreply@yourdomain>").
 		AddTo("testemail@test.test").
 		SetSubject("New Email test")
 	email.SetBody(mail.TextHTML, htmlBody)
